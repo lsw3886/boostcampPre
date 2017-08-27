@@ -990,7 +990,7 @@ section.top_banner_bg:after {
   color: #fff;
 }
 .present span {
-  color: hsl(37, 99%, 44%);
+  color: #03a9f4;
   font-weight: 700;
 }
 .present b {
@@ -1067,7 +1067,7 @@ section.top_banner_bg:after {
 }
 
 .section_heading h4 {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 45px;
   margin: 0;
   padding: 0 0 50px;
@@ -1131,6 +1131,25 @@ section.top_banner_bg:after {
   margin-top: 100px;
 }
 
+
+/*-----------video------------*/
+
+#testVideo{
+  background:rgba(1, 10, 28, 0.8) url("../images/board.jpg") no-repeat fixed 0 0 / cover ;
+  position: relative;
+
+}
+
+#testVideo:after {
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:100%;
+  width:100%;
+  content:"";
+  background:rgba(1, 10, 28, 0.8);  
+}
 
 /*---------- services---------*/
 .section_heading.section_heading_2 h2 {
@@ -1473,7 +1492,8 @@ section.price_table_bg:after {
 
 /*--------- testomimianl------*/
 section.testimonial_bg {
-  background: url(../images/testi_bg.png) repeat scroll 0 0;
+  background: url(../images/testi_bg.png) no-repeat fixed 0 0 / cover;
+
   position:relative;
 }
 
@@ -1487,6 +1507,7 @@ section.testimonial_bg:after {
 	content:"";
 	background:rgba(1, 10, 28, 0.8);	
 }
+
 
 .testimonial_slide {
   margin: 0 auto;
